@@ -4,7 +4,7 @@ sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g'  /etc/apt/sources.list
 sed -i 's/security.ubuntu.com/mirrors.ustc.edu.cn/g'  /etc/apt/sources.list
 apt update
 apt install vim git wget gdb -y
-sed -i "s/#force_color_prompt=/force_color_prompt=/g" ~/.bashr
+sed -i "s/#force_color_prompt=/force_color_prompt=/g" ~/.bashrc
 
 
 cd ~
