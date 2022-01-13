@@ -13,3 +13,5 @@
     - 使用(可无参数可单参数，参数一为代理连接)
         - ./new-pwn-dockerenv.sh
         - ./new-pwn-dockerenv.sh http://xxx.xxx.xxx.xxx:xxxx
+    - 单文件下载链接
+        - https://raw.githubusercontent.com/BurYiA-z/script/master/new-pwn-dockerenv.sh
