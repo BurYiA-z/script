@@ -32,4 +32,4 @@ sed -i "s/register,code,stack//g" ./peda/lib/config.py
 apt-get install python python-dev git libssl-dev libffi-dev build-essential -y
 
 python2 ./get-pip.py
-python2 -m pip install --upgrade pwntools
+python2 -m pip install --upgrade pwntools pathlib2
